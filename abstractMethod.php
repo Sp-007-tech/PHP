@@ -1,4 +1,5 @@
 <?php
+
 abstract class car {
     public $name;
     public function __construct($name){
@@ -7,8 +8,8 @@ abstract class car {
 
     abstract public function intro() : string;
 }
-//child classes 
 
+//child classes 
 class Audi extends car {
     public function intro() : string {
         return "I am Audi";
@@ -28,7 +29,6 @@ class Citroen extends car {
 }
 
 // creating objects from the child classes
-
 $audi = new audi("Audi");
 ehco $audi->intro();
 
