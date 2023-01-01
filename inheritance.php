@@ -1,3 +1,5 @@
+<!-- Inheritance In PHP -->
+
 <?php
 
 class Fruit {
@@ -14,6 +16,7 @@ class Fruit {
     }
 
 }
+
 // Mango class inheritaded form Fruit
 class mango extends Fruit {
     public function message(){
@@ -28,8 +31,9 @@ $mango->intro();
 
 ?>
 
-<!-- Another example with Protected Access Modifer -->
 
+
+<!-- Another example with Protected Access Modifer -->
 
 <?php
 
@@ -65,10 +69,7 @@ $orange->message();//It is ok ,coz message() is public.
 ?>
 
 
-
 <!-- Overriding :: (1) Inherited method can be overridden by redefining the methods (use the same name) in the child class -->
-
-
 
 <?php
 
@@ -106,8 +107,7 @@ $strawberry->intro();
 
 
 ?>
-<!-- In above example the __construct and intro() methods in the child class (Strawberry) will override the __construct() and intro() method in the parent calss(fu) -->
-
-
+<!-- In above example the __construct and intro() methods in the child class (Strawberry) will override the __construct()and
+     intro() method in the parent calss(fu) -->
 
 <!-- The final keyword can be used to prevent class inherited or to prevent method form overriding. -->
