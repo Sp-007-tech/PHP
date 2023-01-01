@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <style>
         .error {color:#FF0000;}
     </style>
+    
+    <title> Required Fields In PHP </title>
+    
 </head>
+    
 <body>
+    
     <?php 
+    
     // Define the variables and set to empty values
 
     $nameErr = $emailErr = $websiteErr = $genderErr = "" ;
