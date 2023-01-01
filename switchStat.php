@@ -32,26 +32,26 @@
  $num = 69;
 
  switch ($num){
-
-   
-     case  1:
+     
+    case  1:
           echo "The no. is 69"
     break;
+     
     case  10:
         echo "The no. is 69"
-  break;
-  case  69:
-    echo "The no. is 69"
-break;
-case  67:
-    echo "The no. is 69"
-break;
+    break;
+
+    case  69:
+       echo "The no. is 69"
+    break;
+     
+    case  67:
+       echo "The no. is 69"
+    break;
 
 default:
 echo "Match not found."
+  
  }
- 
- 
- 
- 
+
  ?>
