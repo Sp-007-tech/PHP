@@ -41,14 +41,4 @@ class fal {
 
 $mango = new fal("Mango","Yellow");
 
-
-
-
-
-
-
-
-
-
-
 ?>
