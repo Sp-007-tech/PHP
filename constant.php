@@ -12,7 +12,7 @@
 
 <?php
 
-define("GREETING","Wlecome tho !");
+define ("GREETING","Wlecome tho !");
 echo GREETING;
 
 ?>
