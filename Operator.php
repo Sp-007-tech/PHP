@@ -1,9 +1,10 @@
+<!--Operator In PHP  -->
+
 <?php
 $var1 =45;
 $var2 = 50;
 
 Echo $var1+$var2;
-
 
 
 // Arithmatic operator
@@ -19,8 +20,6 @@ echo $var1 * $var2;
 echo "<br>";
 echo "The value of var1 and var2 is ";
 echo $var1 / $var2;
-
-
 
 
 // Assignment Operator
