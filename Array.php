@@ -1,3 +1,5 @@
+<!-- Array's In PHP -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +9,9 @@
     <title>Array</title>
 </head>
 <body>
+    
     <h1>Array in php</h1>
+    
 </body>
 <?php
 
@@ -32,6 +36,8 @@ for ($row=0;$row<3;$row++){
         echo "\t".$emp[$row][$col]."";
     }
     echo "\n";
+    
 }
 ?>
+    
 </html>
