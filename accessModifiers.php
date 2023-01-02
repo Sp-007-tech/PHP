@@ -1,3 +1,5 @@
+<!--Access Modifier In PHP.  -->
+
 <!-- **Properties and methods can have access modifiers which control where they can be accesed.
 
 (1)Public :: The property or method can be accessed from everywhere.
