@@ -1,3 +1,5 @@
+<!--DataType In PHP  -->
+
 <?php
 // Data type in php 
 //1.String 
